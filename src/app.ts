@@ -2,7 +2,7 @@ import 'express-async-errors';
 import HttpStatus from 'http-status';
 import cors from 'cors';
 import express, { Express, Request, Response, NextFunction } from 'express';
-import './config/env';
+import '@config/env';
 
 export async function init(): Promise<Express> {
   const app = express();

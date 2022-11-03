@@ -3,3 +3,4 @@ dist
 coverage
 .env
 z-scripts
+luguin-pair-key.pem

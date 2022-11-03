@@ -1,5 +1,5 @@
-import './config/env';
-import { init } from 'app';
+import '@config/env';
+import { init } from './app';
 
 async function initServer(): Promise<void> {
   const app = await init();
